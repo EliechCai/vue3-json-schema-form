@@ -1460,10 +1460,10 @@
   resolved "https://registry.npm.taobao.org/@vue/babel-helper-vue-transform-on/download/@vue/babel-helper-vue-transform-on-1.0.2.tgz#9b9c691cd06fc855221a2475c3cc831d774bc7dc"
   integrity sha1-m5xpHNBvyFUiGiR1w8yDHXdLx9w=
 
-"@vue/babel-plugin-jsx@^1.0.3":
+"@vue/babel-plugin-jsx@^1.0.3", "@vue/babel-plugin-jsx@^1.0.4":
   version "1.0.4"
-  resolved "https://registry.npm.taobao.org/@vue/babel-plugin-jsx/download/@vue/babel-plugin-jsx-1.0.4.tgz?cache=0&sync_timestamp=1617023265674&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fbabel-plugin-jsx%2Fdownload%2F%40vue%2Fbabel-plugin-jsx-1.0.4.tgz#077826ca0eccd77cb6ad698254f5821ded5c5189"
-  integrity sha1-B3gmyg7M13y2rWmCVPWCHe1cUYk=
+  resolved "https://registry.yarnpkg.com/@vue/babel-plugin-jsx/-/babel-plugin-jsx-1.0.4.tgz#077826ca0eccd77cb6ad698254f5821ded5c5189"
+  integrity sha512-Vu5gsabUdsiWc4vQarg46xWJGs8pMEJyyMQAKA1vO+F4+aR4/jaxWxPCOvZ7XvVyy+ecSbwQp/qIyDVje360UQ==
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     "@babel/plugin-syntax-jsx" "^7.0.0"
@@ -2086,12 +2086,22 @@ ajv-errors@^1.0.0:
   resolved "https://registry.npm.taobao.org/ajv-errors/download/ajv-errors-1.0.1.tgz?cache=0&sync_timestamp=1616886640262&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fajv-errors%2Fdownload%2Fajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
   integrity sha1-81mGrOuRr63sQQL72FAUlQzvpk0=
 
+ajv-errors@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-3.0.0.tgz#e54f299f3a3d30fe144161e5f0d8d51196c527bc"
+  integrity sha512-V3wD15YHfHz6y0KdhYFjyy9vWtEVALT9UrxfN3zqlI6dMioHnJrqOYfyPKol3oqrnCM9uwkcdCwkJ0WUcbLMTQ==
+
+ajv-i18n@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ajv-i18n/-/ajv-i18n-4.0.0.tgz#7b07e28fd417808e18fcc30df03a76d169be9375"
+  integrity sha512-bZxvSt2PZMBndVlLyhlU5OsqsulV83zwQR8NBiQICQP1SU3gAPXCuRVXcaFS0ZiNBtNLrTGKXK90vtQDAwiMRQ==
+
 ajv-keywords@^3.1.0, ajv-keywords@^3.4.1, ajv-keywords@^3.5.2:
   version "3.5.2"
   resolved "https://registry.npm.taobao.org/ajv-keywords/download/ajv-keywords-3.5.2.tgz?cache=0&sync_timestamp=1616882441894&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fajv-keywords%2Fdownload%2Fajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
   integrity sha1-MfKdpatuANHC0yms97WSlhTVAU0=
 
-ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.2, ajv@^6.12.3, ajv@^6.12.4:
+ajv@6, ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.2, ajv@^6.12.3, ajv@^6.12.4:
   version "6.12.6"
   resolved "https://registry.npm.taobao.org/ajv/download/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
   integrity sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ=
